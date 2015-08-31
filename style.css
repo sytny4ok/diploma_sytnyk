@@ -64,9 +64,6 @@ img {
 }
 
 /* HEADER */
-
-
-
 .header-box {
     background-color: black;
 }
@@ -74,7 +71,6 @@ img {
 .headercontainer {
     max-width: 980px;
     margin: 0 auto;
-
 }
 
 .menu-item {
@@ -85,7 +81,6 @@ img {
     margin: 10px 10px 10px;
     padding: 8px 8px 8px;
     text-transform: uppercase;
-
 }
 
 .menu-item:hover, .menu-item.is-active {
@@ -96,7 +91,6 @@ img {
     padding-bottom: 25px;
     padding-top: 25px;
     text-align: center;
-
 }
 
 
@@ -167,8 +161,6 @@ img {
     max-width: 980px;
     margin: 0 auto;
     padding-bottom: 60px;
-
-
 }
 
 .features li {
@@ -177,7 +169,6 @@ img {
     margin-top: 50px;
     padding-right: 5px;
     padding-left: 5px;
-    
 }
 
 .featureheading {
@@ -195,7 +186,6 @@ img {
     font-family: open sans;
     font-weight: lighter;
     line-height: 26px;
-    
 }
 
 .bgwork {
@@ -245,7 +235,6 @@ img {
 .gallery li:hover { 
     opacity: 0.5;
     cursor: pointer;
-    
 }
 
 .gallery {
@@ -373,7 +362,6 @@ img {
     width: 33%;
     display: inline-block;
     vertical-align: top;
-    
 }
 
 .gallerynews {
@@ -396,7 +384,6 @@ img {
     font-weight: 600;
     text-transform: uppercase;
     color: #ffffff;
-    
 }
 
 .text1 {
@@ -408,7 +395,6 @@ img {
     padding-top: 30px;
     max-width: 300px;
     line-height: 20px;
-
 }
 
 .grass {
@@ -490,7 +476,6 @@ img {
     background-color: #f26c4f;
     margin-top: 27px;
     position: relative;
-    
 }
 
  .btnname::before {
@@ -505,7 +490,6 @@ img {
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
     border-top: 50px solid #fff;
-    
 }
 
 .clients li {
@@ -517,7 +501,6 @@ img {
     opacity: 0.6;
     border-bottom: solid transparent;
     border-bottom-width: 5px;
-    
 }
 
 .clients {
@@ -604,7 +587,6 @@ img {
 .prodimage:hover {
     cursor: pointer;
     box-shadow: 2px 2px 30px 1px rgba(0,0,0,0.5);
-    
 }
 
 .nameproduct {
@@ -712,13 +694,11 @@ img {
     vertical-align: top;
     text-align: left;
     display: inline-block;
-    
 }
 
 .bubbletext {
     width: 65%;
     padding-left: 75px;
-
 }
 
 .clgallery li {
