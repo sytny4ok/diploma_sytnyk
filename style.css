@@ -74,7 +74,6 @@ img {
 }
 
 .menu-item {
-    
     font-size: 13.04px;
     font-weight: bold;
     color: #888888;
@@ -92,7 +91,6 @@ img {
     padding-top: 25px;
     text-align: center;
 }
-
 
 .logo {
     vertical-align: middle;
@@ -210,31 +208,46 @@ img {
 }
 
 .gallery li {
-    position: relative;
     width: 230px;
     height: 200px;
     display: inline-block;
     margin-bottom: 17px;
     margin-right: 13px;
+    position: relative;
 }
 
-.gallery li::before {
-    content: '';
+.bb1_info {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 230px;
-    height: 200px;
-    background-color: black;
     opacity: 0;
+    background-color: black;
+    background-size: cover;
+    height: 200px;
+    width: 230px;
+    text-align: center;
 }
 
+.bb1 img {
+    position: absolute;
+}
 
-.gallery li:hover { 
-    opacity: 0.5;
-    cursor: pointer;
+.bb1_info:hover  {
+    opacity: 0.85;
+}
+
+.bb1_info h2 {
+    font-family: open sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.bb1_info img {
+    margin: 4px 3px 4px;
+    position: relative;
 }
 
 .gallery {
@@ -686,19 +699,116 @@ img {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 870px) {
 
-.gallerynews li  {
+.bb1_info {
+    display: none;
+}
+
+.bb1 img {
     position: relative;
+}
+
+.menu {
     width: 100%;
-    vertical-align: top;
     text-align: left;
+}
+
+.logo {
+    display: block;
+    padding-left: 13px;
+}
+
+.menu-item {
+    margin-right: 0px;
     display: inline-block;
 }
 
+.slidernavigation {
+    position: absolute;
+    padding-top: 80px;
+}
+
+.btnthunder {
+    font-size: 18px;
+    padding-top: 9px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 9px;
+    margin-bottom: 36px;
+    margin-left: 13px;
+}
+
+.slidertext {
+    border-radius: 5px;
+    margin-left: 13px;
+}
+
+.worktitle {
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.browse {
+    float: none;
+    margin-right: 0px;
+}
+
+.work {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gallery li {
+    padding-top: 20px;
+    margin: 0px 5px 0px;
+}
+
+.gallery {
+    padding-bottom: 40px;
+}
+
+.devices {
+    float: none;
+    position: absolute;
+    width: 40%;
+    margin-top: -20px;
+    margin-left: 260px;
+}
+
+.calltext {
+    max-width: 60%;
+    padding-left: 40px;
+    padding-right: 6px;
+}
+
+.start {
+    margin-top: 50px;
+}
+
+.gallerynews li {
+    position: relative;
+    width: 46%;
+    vertical-align: top;
+    text-align: left;
+    padding-bottom: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.newstitle {
+    padding-left: 10px;
+}
+
+.grass {
+    width: 100%;
+}
+
 .bubbletext {
-    width: 65%;
-    padding-left: 75px;
+    width: 90%;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 .clgallery li {
@@ -707,29 +817,314 @@ img {
     display: inline-block;
     vertical-align: top;
     padding-bottom: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+.clienttitle {
+    text-align: left;
+    padding: 0 0 0;
+    margin-left: 45px;
+}
+
+.products li {
+    width: 40%;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 560px) {
+
+.bb1_info {
+    display: none;
+}
+
+.bb1 img {
+    position: relative;
+}
+
+.menu {
+    width: 100%;
+    text-align: left;
+}
+
+.logo {
+    display: block;
+    padding-left: 13px;
+}
+
+.menu-item {
+    margin-right: 0px;
+    display: inline-block;
+}
+
+.slidernavigation {
+    position: absolute;
+    padding-top: 50px;
+}
+
+.btnthunder {
+    font-size: 18px;
+    padding-top: 9px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 9px;
+    margin-bottom: 36px;
+    margin-left: 13px;
+}
+
+.slidertext {
+    border-radius: 5px;
+    margin-left: 13px;
+}
+
+.worktitle {
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.browse {
+    float: none;
+    margin-right: 0px;
+}
+
+.work {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gallery li {
+    padding-top: 20px;
+    margin: 0px 5px 0px;
+}
+
+.gallery {
+    padding-bottom: 40px;
+}
+
+.devices {
+    float: none;
+    position: absolute;
+    width: 50%;
+    margin-top: -20px;
+    margin-left: 250px;
+}
+
+.calltext {
+    max-width: 60%;
+    padding-left: 40px;
+    padding-right: 6px;
+}
+
+.start {
+    margin-top: 50px;
+}
+
+.gallerynews li {
+    position: relative;
+    width: 46%;
+    vertical-align: top;
+    text-align: left;
+    padding-bottom: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.newstitle {
+    padding-left: 10px;
+}
+
+.grass {
+    width: 100%;
+}
+
+.bubbletext {
+    width: 90%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.clgallery li {
+    position: relative;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+.clienttitle {
+    text-align: left;
+    padding: 0 0 0;
+    margin-left: 50px;
+}
+
+.products li {
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.footer li {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;   
+}
+
+.footeritemtext {
+    max-width: 290px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 320px) {
+
+.menu {
+    width: 90%;
+    text-align: left;
+}
+
+.logo {
+    padding-right: 100px;
+    padding-left: 13px;
+}
+
+.menu-item {
+    margin-right: 0px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.slidernavigation {
+    position: absolute;
+    padding-top: 30px;
+}
+
+.btnthunder {
+    font-size: 18px;
+    padding-top: 9px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 9px;
+    margin-bottom: 36px;
+    margin-left: 6px;
+}
+
+.slidertext {
+    border-radius: 0px;
+    margin-left: 0;
+}
+
+.worktitle {
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.browse {
+    float: none;
+    margin-right: 0px;
+}
+
+.work {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gallery li {
+    padding-top: 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+.bb1_info {
+    display: none;
+}
+
+.bb1 img {
+    position: relative;
+}
+
+.gallery {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.gallerynews li {
+    position: relative;
+    width: 90%;
+    vertical-align: top;
+    text-align: left;
+    padding-bottom: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.newstitle {
+    padding-left: 20px;
 }
 
 
+.grass {
+    width: 100%;
+}
 
+.bubbletext {
+    width: 90%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
 
+.clgallery li {
+    position: relative;
+    width: 90%;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
 
+.clienttitle {
+    text-align: center;
+    padding: 0 0 0;
+    margin: 0 0 0;
+}
 
+.devices {
+    float: none;
+    position: absolute;
+    width: 92%;
+    margin-top: -22px;
+    margin-right: 6px;
+    margin-left: 6px;
+}
 
+.calltext {
+    max-width: 100%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
 
+.start {
+    margin-top: 150px;
+}
 
+.products li {
+    width: 90%;
+    margin-bottom: 40px;
+}
 
+.footer li {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;   
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footeritemtext {
+    max-width: 290px;
+    text-align: center;
+    margin: 0 auto;
+}
